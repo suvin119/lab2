@@ -1,7 +1,6 @@
-# 컴파일된 바이너리 및 임시 파일 제외
-*.out
-*.o
+# 확장자 없는 모든 실행 파일 무시
+*
+!*/
+!*.*
+!.gitignore
 copy_result.c
-dbus_server
-dbus_client
-copy_posix
