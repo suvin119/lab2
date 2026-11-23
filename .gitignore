@@ -1,0 +1,7 @@
+# 컴파일된 바이너리 및 임시 파일 제외
+*.out
+*.o
+copy_result.c
+dbus_server
+dbus_client
+copy_posix
